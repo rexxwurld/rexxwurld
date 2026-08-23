@@ -128,11 +128,6 @@ Business / Merchant
                 ↓
              Payout
 
-### FILE 2 — Part 2
-
-```markdown
----
-
 ## 💱 Meredian Exchange
 
 ### Client Project
