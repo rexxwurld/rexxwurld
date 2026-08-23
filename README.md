@@ -4,7 +4,7 @@
 
 ### Backend Developer • Computer Science Student • Builder
 
-I build **backend systems, APIs, payment infrastructure and web applications**.
+I build **backend systems, APIs, payment infrastructure, and web applications**.
 
 <a href="https://github.com/rexxwurld">
   <img src="https://img.shields.io/badge/GitHub-Rexxwurld-181717?style=for-the-badge&logo=github&logoColor=white" />
@@ -20,11 +20,13 @@ I build **backend systems, APIs, payment infrastructure and web applications**.
 
 </div>
 
-I'm a Computer Science student and backend-focused developer interested in building systems that solve real-world problems.
+I'm a Computer Science student and backend-focused developer interested in building real-world software systems.
 
-My main focus is **backend engineering** — designing APIs, working with databases, authentication, payment flows, webhooks, wallets, transactions and application architecture.
+My main focus is **backend engineering** — designing APIs, working with databases, authentication, financial systems, transactions, webhooks, and application architecture.
 
-I'm currently deepening my knowledge of **Node.js and backend engineering** with the goal of becoming a senior backend developer.
+I've worked across both **PHP and Node.js backend environments**, with experience using MySQL and MongoDB.
+
+I'm currently deepening my knowledge of **Node.js and backend engineering**, with the long-term goal of becoming a senior backend engineer.
 
 ---
 
@@ -46,7 +48,7 @@ I'm currently deepening my knowledge of **Node.js and backend engineering** with
 
 ### Tools & Infrastructure
 
-<img src="https://skillicons.dev/icons?i=git,github,linux" />
+<img src="https://skillicons.dev/icons?i=git,github,linux,docker" />
 
 </div>
 
@@ -58,90 +60,65 @@ I'm currently deepening my knowledge of **Node.js and backend engineering** with
 
 </div>
 
-### 💳 RexxPay
+### 🏦 RexxPay
 
-**Payment infrastructure built around merchants, virtual accounts, wallets and transactions.**
+**Banking infrastructure platform.**
 
-Key areas I've worked on include:
+RexxPay is focused on the banking layer of a financial ecosystem — providing the underlying infrastructure for accounts, wallets, balances, transactions, transfers, and financial operations.
 
-- REST APIs
-- Virtual account infrastructure
-- Wallet management
+#### Core Areas
+
+- Account management
+- Wallets
+- Balances
 - Transactions
 - Transfers
-- Payment verification
-- Webhooks
-- Settlement flows
+- Banking operations
+- Financial ledgers
 - Transaction processing
 - Authentication & authorization
+- Backend APIs
 - Database architecture
 
-**Stack:** Node.js • Express.js • MongoDB • JWT • REST APIs
+**Stack:** Node.js • Express.js • MongoDB • JWT
 
 ---
 
-### 📈 EliteAdx
+### ⚡ SwiftPay
 
-**An advertising platform connecting advertisers and publishers.**
+**Payment infrastructure platform.**
 
-The system focuses on:
+SwiftPay is focused on the payment-infrastructure layer that allows businesses and applications to integrate payment capabilities without having to build the entire financial infrastructure themselves.
 
-- Advertiser accounts
-- Publisher accounts
-- Campaign management
-- Ad serving
-- Campaign validation
-- Publisher approval
-- Moderation
-- Billing
+#### Core Areas
+
+- Merchant integrations
+- Payment APIs
+- Checkout
+- Virtual accounts
+- Payment collection
+- Transaction processing
+- Webhooks
 - Payouts
-- Authentication
-- Backend validation
-- API architecture
+- Settlement
+- Payment verification
+- Financial infrastructure
 
-**Stack:** PHP • MySQL • JavaScript • HTML • CSS
-
----
-
-### 💱 Meredian Exchange
-
-A deployed web project focused on a digital exchange experience.
-
-**Focus:** Web development • User interface • Backend integration
-
----
-
-### 🛒 TrophyEmpire
-
-An e-commerce project built for online product sales.
-
-**Focus:** E-commerce • Product management • Web development
-
----
-
-<div align="center">
-
-## 🔐 Backend Engineering
-
-</div>
-
-Some of the backend concepts I'm working with:
+#### Architecture
 
 ```text
-REST APIs
-    ↓
-Authentication
-    ↓
-Authorization
-    ↓
-Validation
-    ↓
-Business Logic
-    ↓
-Database
-    ↓
-Transactions
-    ↓
-Webhooks
-    ↓
-Settlement
+                    SwiftPay
+              Payment Infrastructure
+                       │
+          ┌────────────┼────────────┐
+          ↓            ↓            ↓
+      Merchants     Businesses     Apps
+          │
+          ↓
+      Payments
+          │
+          ↓
+   Transaction Processing
+          │
+          ↓
+     Settlement / Payout
