@@ -56,7 +56,7 @@ My long-term goal is to become a **senior backend engineer** capable of designin
 
 <div align="center">
 
-# 🚀 Featured Projects
+## 🚀 Featured Projects
 
 </div>
 
@@ -127,3 +127,95 @@ Business / Merchant
                 │
                 ↓
              Payout
+
+### FILE 2 — Part 2
+
+```markdown
+---
+
+## 💱 Meredian Exchange
+
+### Client Project
+
+A deployed web project built around an exchange-focused experience.
+
+### Focus
+
+- Web development
+- Responsive user interface
+- Backend integration
+- Database-driven functionality
+
+**Stack:** HTML • CSS • JavaScript • PHP • MySQL
+
+---
+
+## 🛒 TrophyEmpire
+
+### E-commerce Platform
+
+A deployed e-commerce web application focused on online product sales and a complete shopping experience.
+
+### Focus
+
+- E-commerce
+- Product management
+- User interface
+- Backend functionality
+- Database integration
+- Performance
+
+**Stack:** HTML • CSS • JavaScript • PHP • MySQL
+
+---
+
+<div align="center">
+
+## 🔐 Backend Engineering
+
+</div>
+
+I'm focused on building backend systems that are **secure, reliable, maintainable, and scalable**.
+
+### Areas I'm Working With
+
+- REST API design
+- Authentication & authorization
+- JWT
+- Password hashing
+- Middleware
+- Request validation
+- Rate limiting
+- Webhooks
+- MongoDB & Mongoose
+- MySQL
+- Database design
+- Transaction processing
+- Wallet systems
+- Payment infrastructure
+- Financial ledgers
+- Error handling
+- API security
+- Environment configuration
+- Backend architecture
+
+### Backend Request Flow
+
+```text
+Client
+  ↓
+API Route
+  ↓
+Middleware
+  ↓
+Authentication
+  ↓
+Validation
+  ↓
+Controller
+  ↓
+Service Layer
+  ↓
+Database
+  ↓
+Response
