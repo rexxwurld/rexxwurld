@@ -1,115 +1,147 @@
+<div align="center">
+
 # 👋 Hey, I'm Rexx
 
-### Backend Developer in Progress • Computer Science Student • Builder
+### Backend Developer • Computer Science Student • Builder
 
-I'm a Computer Science student focused on becoming a **senior backend engineer**.
+I build **backend systems, APIs, payment infrastructure and web applications**.
 
-I enjoy building APIs, backend systems, authentication flows, payment infrastructure, and database-driven applications — with a strong focus on understanding **how systems work behind the scenes**.
+<a href="https://github.com/rexxwurld">
+  <img src="https://img.shields.io/badge/GitHub-Rexxwurld-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🧠 About Me
+
+</div>
+
+I'm a Computer Science student and backend-focused developer interested in building systems that solve real-world problems.
+
+My main focus is **backend engineering** — designing APIs, working with databases, authentication, payment flows, webhooks, wallets, transactions and application architecture.
+
+I'm currently deepening my knowledge of **Node.js and backend engineering** with the goal of becoming a senior backend developer.
 
 ---
 
-## 🚀 What I'm Building
-
-### 💳 RexxPay
-A payment infrastructure project focused on merchant payments, virtual accounts, transactions, webhooks, settlements, and wallet management.
-
-**Focus:** Payment APIs • Virtual Accounts • Webhooks • Transactions • Settlements • Wallets
-
-### 📈 EliteAdx
-An advertising platform connecting advertisers and publishers.
-
-**Focus:** Campaigns • Publishers • Advertisers • Moderation • Validation • Authentication
-
-### 🏆 Success Arena
-A web application built around user-driven functionality and backend-powered workflows.
-
-**Stack:** PHP • MySQL • JavaScript • HTML • CSS
-
-### 💰 Other Projects
-
-I've also worked on projects involving:
-
-- Fintech systems
-- E-commerce
-- Authentication systems
-- Wallets & transactions
-- REST APIs
-- Admin dashboards
-- Database-driven applications
-
----
+<div align="center">
 
 ## 🛠️ Tech Stack
 
 ### Backend
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-
-### Databases
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+<img src="https://skillicons.dev/icons?i=nodejs,express,php" />
 
 ### Languages & Web
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+<img src="https://skillicons.dev/icons?i=js,html,css" />
+
+### Databases
+
+<img src="https://skillicons.dev/icons?i=mongodb,mysql" />
 
 ### Tools & Infrastructure
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+<img src="https://skillicons.dev/icons?i=git,github,linux" />
+
+</div>
 
 ---
 
-## 🔐 Backend Skills
+<div align="center">
 
-Currently working with:
+## 🚀 Featured Projects
 
-- REST API design
-- Authentication & authorization
-- JWT
-- Password hashing with bcrypt
-- Middleware
-- Request validation
-- Rate limiting
+</div>
+
+### 💳 RexxPay
+
+**Payment infrastructure built around merchants, virtual accounts, wallets and transactions.**
+
+Key areas I've worked on include:
+
+- REST APIs
+- Virtual account infrastructure
+- Wallet management
+- Transactions
+- Transfers
+- Payment verification
 - Webhooks
-- Database design
-- MongoDB & Mongoose
-- MySQL
+- Settlement flows
 - Transaction processing
-- Wallet systems
-- Payment flows
-- Error handling
-- API security
-- Environment configuration
-- Backend architecture
+- Authentication & authorization
+- Database architecture
+
+**Stack:** Node.js • Express.js • MongoDB • JWT • REST APIs
 
 ---
 
-## 💳 Fintech & Payment Systems
+### 📈 EliteAdx
 
-One of my main interests is understanding how real payment infrastructure works.
+**An advertising platform connecting advertisers and publishers.**
 
-I've worked on concepts such as:
+The system focuses on:
+
+- Advertiser accounts
+- Publisher accounts
+- Campaign management
+- Ad serving
+- Campaign validation
+- Publisher approval
+- Moderation
+- Billing
+- Payouts
+- Authentication
+- Backend validation
+- API architecture
+
+**Stack:** PHP • MySQL • JavaScript • HTML • CSS
+
+---
+
+### 💱 Meredian Exchange
+
+A deployed web project focused on a digital exchange experience.
+
+**Focus:** Web development • User interface • Backend integration
+
+---
+
+### 🛒 TrophyEmpire
+
+An e-commerce project built for online product sales.
+
+**Focus:** E-commerce • Product management • Web development
+
+---
+
+<div align="center">
+
+## 🔐 Backend Engineering
+
+</div>
+
+Some of the backend concepts I'm working with:
 
 ```text
-Merchant
-   ↓
-Payment API
-   ↓
-Virtual Account
-   ↓
-Bank / Payment Provider
-   ↓
-Webhook
-   ↓
-Transaction Processing
-   ↓
+REST APIs
+    ↓
+Authentication
+    ↓
+Authorization
+    ↓
+Validation
+    ↓
+Business Logic
+    ↓
+Database
+    ↓
+Transactions
+    ↓
+Webhooks
+    ↓
 Settlement
-   ↓
-Merchant Wallet
