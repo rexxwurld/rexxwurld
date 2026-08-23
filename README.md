@@ -4,7 +4,7 @@
 
 ### Backend Developer • Computer Science Student • Builder
 
-I build **backend systems, APIs, payment infrastructure, and web applications**.
+I build **backend systems, APIs, financial infrastructure, and web applications**.
 
 <a href="https://github.com/rexxwurld">
   <img src="https://img.shields.io/badge/GitHub-Rexxwurld-181717?style=for-the-badge&logo=github&logoColor=white" />
@@ -24,9 +24,9 @@ I'm a Computer Science student and backend-focused developer interested in build
 
 My main focus is **backend engineering** — designing APIs, working with databases, authentication, financial systems, transactions, webhooks, and application architecture.
 
-I've worked across both **PHP and Node.js backend environments**, with experience using MySQL and MongoDB.
+I've worked with **Node.js, Express.js, PHP, JavaScript, MongoDB, MySQL, HTML, and CSS**, and I'm continuously improving my backend engineering skills.
 
-I'm currently deepening my knowledge of **Node.js and backend engineering**, with the long-term goal of becoming a senior backend engineer.
+My long-term goal is to become a **senior backend engineer** capable of designing and building reliable production-grade systems.
 
 ---
 
@@ -56,25 +56,27 @@ I'm currently deepening my knowledge of **Node.js and backend engineering**, wit
 
 <div align="center">
 
-## 🚀 Featured Projects
+# 🚀 Featured Projects
 
 </div>
 
-### 🏦 RexxPay
+## 🏦 RexxPay
 
-**Banking infrastructure platform.**
+### Banking Infrastructure
 
-RexxPay is focused on the banking layer of a financial ecosystem — providing the underlying infrastructure for accounts, wallets, balances, transactions, transfers, and financial operations.
+RexxPay is a **banking-focused backend system** designed around core financial operations.
 
-#### Core Areas
+It provides the underlying banking layer for managing financial accounts, balances, wallets, transactions, transfers, and related operations.
+
+### Core Areas
 
 - Account management
-- Wallets
+- Wallet management
 - Balances
 - Transactions
 - Transfers
-- Banking operations
-- Financial ledgers
+- Financial operations
+- Ledger concepts
 - Transaction processing
 - Authentication & authorization
 - Backend APIs
@@ -84,13 +86,15 @@ RexxPay is focused on the banking layer of a financial ecosystem — providing t
 
 ---
 
-### ⚡ SwiftPay
+## ⚡ SwiftPay
 
-**Payment infrastructure platform.**
+### Payment Infrastructure
 
-SwiftPay is focused on the payment-infrastructure layer that allows businesses and applications to integrate payment capabilities without having to build the entire financial infrastructure themselves.
+SwiftPay is a **payment infrastructure platform** designed to provide businesses and applications with payment capabilities through APIs and financial infrastructure.
 
-#### Core Areas
+It sits at the payment-infrastructure layer, handling payment-related workflows between businesses, applications, and financial systems.
+
+### Core Areas
 
 - Merchant integrations
 - Payment APIs
@@ -99,26 +103,27 @@ SwiftPay is focused on the payment-infrastructure layer that allows businesses a
 - Payment collection
 - Transaction processing
 - Webhooks
+- Payment verification
 - Payouts
 - Settlement
-- Payment verification
 - Financial infrastructure
 
-#### Architecture
+### Payment Flow
 
 ```text
-                    SwiftPay
-              Payment Infrastructure
-                       │
-          ┌────────────┼────────────┐
-          ↓            ↓            ↓
-      Merchants     Businesses     Apps
-          │
-          ↓
-      Payments
-          │
-          ↓
-   Transaction Processing
-          │
-          ↓
-     Settlement / Payout
+Business / Merchant
+        │
+        ↓
+     SwiftPay
+        │
+        ├── Payment APIs
+        ├── Checkout
+        ├── Virtual Accounts
+        ├── Webhooks
+        └── Transaction Processing
+                │
+                ↓
+           Settlement
+                │
+                ↓
+             Payout
