@@ -127,6 +127,40 @@ Business / Merchant
                 │
                 ↓
              Payout
+```
+
+**Stack:** JavaScript • HTML • CSS • Docker
+
+---
+
+## 📈 EliteAdx
+
+### Advertising Network & Exchange
+
+EliteAdx is a **self-hosted advertising platform** connecting advertisers and publishers.
+
+The platform handles advertising workflows from campaign creation and publisher management through ad serving, billing, fraud protection, and payouts.
+
+### Core Areas
+
+- Advertiser accounts
+- Publisher accounts
+- Campaign management
+- Ad serving
+- Auctions
+- Campaign validation
+- Publisher approval
+- Moderation
+- Billing
+- Fraud protection
+- Payouts
+- Ledger-backed accounting
+- Authentication
+- Backend validation
+
+**Stack:** PHP • MySQL • JavaScript • HTML • CSS
+
+---
 
 ## 💱 Meredian Exchange
 
@@ -214,3 +248,154 @@ Service Layer
 Database
   ↓
 Response
+```
+
+---
+
+<div align="center">
+
+## 💳 Financial Systems
+
+</div>
+
+Financial infrastructure is one of the areas I'm most interested in.
+
+I'm exploring how different layers of financial systems work together.
+
+```text
+                    Financial Ecosystem
+                           │
+             ┌─────────────┴─────────────┐
+             │                           │
+             ↓                           ↓
+       Banking Layer              Payment Layer
+         RexxPay                    SwiftPay
+             │                           │
+             ↓                           ↓
+        Accounts                  Merchant Payments
+        Balances                  Payment APIs
+        Wallets                   Checkout
+        Transfers                 Webhooks
+        Transactions              Settlement
+        Ledgers                   Payouts
+```
+
+### Areas of Interest
+
+- Banking infrastructure
+- Payment infrastructure
+- Virtual accounts
+- Wallet architecture
+- Transaction processing
+- Payment verification
+- Webhooks
+- Settlement systems
+- Payout systems
+- Ledger-based accounting
+- Financial APIs
+- Data consistency
+- Idempotency
+- Secure financial operations
+
+---
+
+<div align="center">
+
+## 📚 Currently Learning
+
+</div>
+
+I'm currently focused on becoming stronger with **Node.js backend engineering** and understanding backend systems at a deeper level.
+
+### Current Focus
+
+- Node.js
+- Express.js
+- REST APIs
+- MongoDB
+- Mongoose
+- Authentication
+- API security
+- Backend architecture
+- Linux
+- Git & GitHub
+- Deployment
+- Redis
+- Nginx
+- Performance
+- Scalability
+- System design
+
+### Backend Engineering Journey
+
+```text
+JavaScript
+     ↓
+Node.js
+     ↓
+Express.js
+     ↓
+REST APIs
+     ↓
+Authentication & Security
+     ↓
+Databases
+     ↓
+Backend Architecture
+     ↓
+Caching & Queues
+     ↓
+Deployment & Infrastructure
+     ↓
+System Design
+     ↓
+Scalable Backend Systems
+```
+
+---
+
+<div align="center">
+
+## 📊 GitHub Stats
+
+<img src="https://github-readme-stats.vercel.app/api?username=rexxwurld&show_icons=true&hide_border=true&theme=transparent" />
+
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rexxwurld&layout=compact&hide_border=true&theme=transparent" />
+
+</div>
+
+---
+
+<div align="center">
+
+## 🎯 Goal
+
+### Become a senior backend engineer capable of designing, building, and scaling production-grade systems.
+
+I don't want to just learn frameworks.
+
+I want to understand **the engineering behind the systems I build.**
+
+</div>
+
+---
+
+<div align="center">
+
+## 🤝 Connect
+
+<a href="https://github.com/rexxwurld">
+  <img src="https://img.shields.io/badge/GitHub-Rexxwurld-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### ⚡ Build. Break. Understand. Rebuild.
+
+</div>
