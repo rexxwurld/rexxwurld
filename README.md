@@ -358,11 +358,11 @@ Scalable Backend Systems
 
 ## 📊 GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=rexxwurld&show_icons=true&hide_border=true&theme=transparent" />
+<img src="https://github-readme-stats-fast.vercel.app/api?username=rexxwurld&show_icons=true&hide_border=true&theme=transparent" />
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rexxwurld&layout=compact&hide_border=true&theme=transparent" />
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=rexxwurld&layout=compact&hide_border=true&theme=transparent" />
 
 </div>
 
