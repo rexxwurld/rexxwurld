@@ -4,7 +4,7 @@
 
 ### Backend Developer • Computer Science Student • Builder
 
-I build **backend systems, APIs, financial infrastructure, and web applications**.
+I build **backend systems, APIs, financial infrastructure, web applications, and mobile applications**.
 
 <a href="https://github.com/rexxwurld">
   <img src="https://img.shields.io/badge/GitHub-Rexxwurld-181717?style=for-the-badge&logo=github&logoColor=white" />
@@ -24,7 +24,9 @@ I'm a Computer Science student and backend-focused developer interested in build
 
 My main focus is **backend engineering** — designing APIs, working with databases, authentication, financial systems, transactions, webhooks, and application architecture.
 
-I've worked with **Node.js, Express.js, PHP, JavaScript, MongoDB, MySQL, HTML, and CSS**, and I'm continuously improving my backend engineering skills.
+I've worked with **Node.js, Express.js, PHP, JavaScript, C#, .NET MAUI, MongoDB, MySQL, HTML, and CSS**, and I'm continuously improving my backend engineering skills.
+
+I enjoy building systems that solve practical problems and exploring how different parts of a software system work together.
 
 My long-term goal is to become a **senior backend engineer** capable of designing and building reliable production-grade systems.
 
@@ -36,7 +38,7 @@ My long-term goal is to become a **senior backend engineer** capable of designin
 
 ### Backend
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,php" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,php,cs,dotnet" />
 
 ### Languages & Web
 
@@ -59,32 +61,6 @@ My long-term goal is to become a **senior backend engineer** capable of designin
 ## 🚀 Featured Projects
 
 </div>
-
-## 🏦 RexxPay
-
-### Banking Infrastructure
-
-RexxPay is a **banking-focused backend system** designed around core financial operations.
-
-It provides the underlying banking layer for managing financial accounts, balances, wallets, transactions, transfers, and related operations.
-
-### Core Areas
-
-- Account management
-- Wallet management
-- Balances
-- Transactions
-- Transfers
-- Financial operations
-- Ledger concepts
-- Transaction processing
-- Authentication & authorization
-- Backend APIs
-- Database architecture
-
-**Stack:** Node.js • Express.js • MongoDB • JWT
-
----
 
 ## ⚡ SwiftPay
 
@@ -139,7 +115,7 @@ Business / Merchant
 
 EliteAdx is a **self-hosted advertising platform** connecting advertisers and publishers.
 
-The platform handles advertising workflows from campaign creation and publisher management through ad serving, billing, fraud protection, and payouts.
+The platform is designed to handle advertising workflows from campaign creation and publisher management through ad serving, billing, fraud protection, and payouts.
 
 ### Core Areas
 
@@ -162,39 +138,100 @@ The platform handles advertising workflows from campaign creation and publisher 
 
 ---
 
-## 💱 Meredian Exchange
+## 💳 UBEE
 
-### Client Project
+### Financial & Payment Application
 
-A deployed web project built around an exchange-focused experience.
+UBEE is a financial application focused on digital wallet and transaction functionality.
 
-### Focus
+The project explores how financial applications can handle users, wallets, transactions, transfers, authentication, and other financial operations.
 
-- Web development
-- Responsive user interface
-- Backend integration
-- Database-driven functionality
+### Core Areas
 
-**Stack:** HTML • CSS • JavaScript • PHP • MySQL
+- User authentication
+- Wallet management
+- Transfers
+- Transactions
+- Deposits
+- Payouts
+- Transaction history
+- OTP verification
+- Account settings
+- Financial operations
+- Backend APIs
+
+**Stack:** C# • .NET MAUI • REST APIs • MongoDB
 
 ---
 
-## 🛒 TrophyEmpire
+## 🗺️ UNIVAST
 
-### E-commerce Platform
+### Campus Arrival & Navigation Platform
 
-A deployed e-commerce web application focused on online product sales and a complete shopping experience.
+UNIVAST is a **campus arrival and navigation platform** designed to help students, visitors, and staff easily find their way around university campuses.
 
-### Focus
+Instead of treating a university campus like a generic map, UNIVAST is designed around the actual structure of a campus — connecting **universities, campuses, buildings, floors, rooms, entrances, landmarks, and destinations**.
 
-- E-commerce
-- Product management
-- User interface
-- Backend functionality
-- Database integration
-- Performance
+### Core Areas
 
-**Stack:** HTML • CSS • JavaScript • PHP • MySQL
+- Campus navigation
+- Building discovery
+- Room and lecture hall locations
+- Campus landmarks
+- Building entrances
+- Floor-based locations
+- Destination search
+- Campus maps
+- Walking directions
+- Location-based discovery
+- Campus information
+- Student and visitor assistance
+
+### Campus Structure
+
+```text
+University
+    │
+    ↓
+Campus
+    │
+    ├── Buildings
+    │      │
+    │      ├── Floors
+    │      │      │
+    │      │      └── Rooms / Lecture Halls
+    │      │
+    │      └── Entrances
+    │
+    ├── Landmarks
+    │
+    └── Navigation Network
+             │
+             ├── Nodes
+             └── Edges
+```
+
+### Navigation Concept
+
+```text
+User
+  ↓
+Select Destination
+  ↓
+Find Campus Location
+  ↓
+Building / Landmark
+  ↓
+Entrance
+  ↓
+Walking Route
+  ↓
+Destination
+```
+
+UNIVAST is being developed as a **campus arrival guide**, with the goal of making it easier for someone arriving on campus to understand where they are, where they need to go, and how to get there.
+
+**Stack:** C# • .NET MAUI • Mapsui • OpenStreetMap • Node.js • Express.js • MongoDB
 
 ---
 
@@ -254,13 +291,15 @@ Response
 
 <div align="center">
 
-## 💳 Financial Systems
+## 💳 Financial & Payment Systems
 
 </div>
 
-Financial infrastructure is one of the areas I'm most interested in.
+Financial and payment infrastructure is one of the areas I'm particularly interested in.
 
-I'm exploring how different layers of financial systems work together.
+Through projects such as **SwiftPay and UBEE**, I explore how different parts of financial applications work together — from payment processing and wallets to transactions, authentication, and financial operations.
+
+### Financial Ecosystem
 
 ```text
                     Financial Ecosystem
@@ -268,25 +307,40 @@ I'm exploring how different layers of financial systems work together.
              ┌─────────────┴─────────────┐
              │                           │
              ↓                           ↓
-       Banking Layer              Payment Layer
-         RexxPay                    SwiftPay
+      Payment Layer                Application Layer
+        SwiftPay                       UBEE
              │                           │
              ↓                           ↓
-        Accounts                  Merchant Payments
-        Balances                  Payment APIs
-        Wallets                   Checkout
-        Transfers                 Webhooks
-        Transactions              Settlement
-        Ledgers                   Payouts
+      Payment APIs                  Wallets
+      Checkout                     Transactions
+      Virtual Accounts             Transfers
+      Webhooks                     Deposits
+      Payment Collection            Payouts
+      Settlement                    Authentication
+      Payouts                       Account Management
+             │                           │
+             └─────────────┬─────────────┘
+                           │
+                           ↓
+                  Financial Operations
+                           │
+             ┌─────────────┼─────────────┐
+             │             │             │
+             ↓             ↓             ↓
+        Transactions    Balances       Ledgers
+             │             │             │
+             └─────────────┼─────────────┘
+                           ↓
+                    Data Consistency
 ```
 
 ### Areas of Interest
 
-- Banking infrastructure
 - Payment infrastructure
-- Virtual accounts
+- Banking systems
 - Wallet architecture
 - Transaction processing
+- Virtual accounts
 - Payment verification
 - Webhooks
 - Settlement systems
@@ -295,7 +349,31 @@ I'm exploring how different layers of financial systems work together.
 - Financial APIs
 - Data consistency
 - Idempotency
+- Authentication & authorization
 - Secure financial operations
+
+---
+
+<div align="center">
+
+## 📱 Mobile Development
+
+</div>
+
+I'm also exploring mobile application development with **.NET MAUI**.
+
+My mobile development work focuses on connecting mobile applications to backend APIs and building applications that interact with real-world systems.
+
+### Areas of Interest
+
+- .NET MAUI
+- C#
+- REST API integration
+- Authentication
+- Mobile UI
+- Financial applications
+- Location-based applications
+- API-driven mobile applications
 
 ---
 
